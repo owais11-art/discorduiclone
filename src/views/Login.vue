@@ -140,9 +140,6 @@ export default {
             margin-top: 30px;
             margin-bottom: 20px;
         }
-        /* .main-container .login-container .qr-code p{
-            font-weight: bolder;
-        } */
         .main-container .login-container .qr-code .img img{
             width: 100%;
         }

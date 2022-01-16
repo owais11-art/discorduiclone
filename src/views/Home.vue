@@ -85,7 +85,6 @@ export default {
     const toggler = () => {
       showSidebar.value = !showSidebar.value;
     }
-    let image = 'dim2';
     let cardContent = ref([
       {
         contentHead: 'Create an invite-only place where you belong',
@@ -109,7 +108,7 @@ export default {
         contentImg: 'dim3'
       }
     ]);
-    return {buttons, cardContent, image, showSidebar, toggler};
+    return {buttons, cardContent, showSidebar, toggler};
   }
 }
 </script>
