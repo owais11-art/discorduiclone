@@ -16,7 +16,9 @@
               <li><a href="#">Careers</a></li>
           </ul>
           <div class="bt-list">
-            <Button text='Open Discord' bgColor='#fff' color='#23272a' />
+            <router-link :to="{name: 'Login'}">
+                <Button text='Open Discord' bgColor='#fff' color='#23272a' />
+            </router-link>
             <i class="bi bi-list" @click="onClick"></i>
           </div>
       </div>
