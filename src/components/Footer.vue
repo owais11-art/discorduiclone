@@ -53,7 +53,7 @@
       <div class="break"></div>
       <div class="footer-nav">
           <div class="logo">
-              <img src="../img/discord_icon_cpy.svg" alt="discord-logo">
+              <img src="./img/discord_icon_cpy.svg" alt="discord-logo">
               <span>
                   <h4>Discord</h4>
               </span>
@@ -64,7 +64,7 @@
 </template>
 
 <script>
-import Button from '../Button.vue';
+import Button from './Button.vue';
 export default {
     name: 'Footer',
     components: {

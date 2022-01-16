@@ -2,7 +2,7 @@
   <nav>
       <div class="nav-container">
           <div class="logo">
-              <img src="../img/discord_icon.svg" alt="discord-logo">
+              <img src="./img/discord_icon.svg" alt="discord-logo">
               <span>
                   <h2>Discord</h2>
               </span>
@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import Button from '../Button.vue';
+import Button from './Button.vue';
 export default {
     name: 'Navbar',
     components:{

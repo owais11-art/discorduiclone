@@ -1,6 +1,6 @@
 <template>
     <div class="card" v-if="ind % 2 === 0">
-        <img :src="require(`../img/${content.contentImg}.svg`)" alt="">
+        <img :src="require(`./img/${content.contentImg}.svg`)" alt="">
         <div class="card-content">
             <h1>{{content.contentHead}}</h1>
             <p>{{content.contentPara}}</p>
@@ -11,7 +11,7 @@
             <h1>{{content.contentHead}}</h1>
             <p>{{content.contentPara}}</p>
         </div>
-        <img :src="require(`../img/${content.contentImg}.svg`)" alt="">
+        <img :src="require(`./img/${content.contentImg}.svg`)" alt="">
     </div>
 </template>
 <script>

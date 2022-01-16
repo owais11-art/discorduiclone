@@ -51,9 +51,9 @@
 </template>
 
 <script>
-import Navbar from '../components/HomeComponents/Navbar.vue';
-import Cards from '../components/HomeComponents/Cards.vue';
-import Footer from '../components/HomeComponents/Footer.vue';
+import Navbar from '../components/Navbar.vue';
+import Cards from '../components/Cards.vue';
+import Footer from '../components/Footer.vue';
 import Button from '../components/Button.vue';
 import { ref } from '@vue/reactivity';
 export default {
